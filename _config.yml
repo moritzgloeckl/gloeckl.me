@@ -1,6 +1,6 @@
 title: Moritz Glöckl
 pagetitle: Moritz Glöckl | gloeckl.me
-tagline: IT Consultant & Software Developer
+tagline: IT Consulting & Software Development
 description: "Personal website of Moritz Glöckl - IT consulting and software development services based in Vienna, Austria."
 
 # Build settings
@@ -8,6 +8,6 @@ markdown: kramdown
 
 sass:
   sass_dir: _sass
-  style: :compressed
+  style: compressed
 
 exclude: [README.md]

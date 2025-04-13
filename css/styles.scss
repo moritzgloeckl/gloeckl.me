@@ -2,8 +2,8 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-@import "base";
-@import "index";
-@import "legal";
-@import "privacy";
-@import "notfound";
+@use "base";
+@use "index";
+@use "legal";
+@use "privacy";
+@use "notfound";

@@ -1,11 +1,13 @@
 @font-face {
   font-family: Poppins;
   src: url(../assets/fonts/Poppins-SemiBold.woff2);
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Open Sans';
   src: url(../assets/fonts/OpenSans-Light.woff2);
+  font-display: swap;
 }
 
 @font-face {
@@ -43,7 +45,7 @@ h1, h2 {
 h1.title {
   font-size: 4rem;
   margin-bottom: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
 a {
@@ -77,9 +79,19 @@ a {
   min-height: 100vh;
 }
 
+.logo {
+  margin-top: 5%;
+  width: 45%;
+}
+
 @media only screen and (max-width: 600px) {
   .wrapper {
     padding: 16px;
+  }
+
+  .logo {
+    margin-top: 5%;
+    width: 85%;
   }
 }
 
@@ -88,7 +100,15 @@ a {
     font-size: 2.0rem;
     padding: 20px;
   }
+
+  .logo {
+    margin-top: 5%;
+    width: 85%;
+  }
 }
+
+// Icons by https://fontello.bableck.dev/
+// Thanks to Lukas Bableck (https://bableck.dev/)
 
 .ic {
 	font-size: 2.2rem;

@@ -1,0 +1,40 @@
+{
+  "name": "icons",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "7bd660dcae7933286cc6cd48008a350f",
+      "css": "x-twitter",
+      "code": 61593,
+      "src": "fa6brands"
+    },
+    {
+      "uid": "55090635b26b0dda000f9109062ceb3d",
+      "css": "github",
+      "code": 61595,
+      "src": "fa6brands"
+    },
+    {
+      "uid": "cf2a3fd69b771b9646ab4733c0f35f7a",
+      "css": "keybase",
+      "code": 59392,
+      "src": "fa6brands"
+    },
+    {
+      "uid": "ec09ba6e736ddcd146606ffb141e95a0",
+      "css": "at",
+      "code": 59393,
+      "src": "fa6solid"
+    },
+    {
+      "uid": "7774aefb77e51e7e9b414ebc7741c485",
+      "css": "certificate",
+      "code": 61603,
+      "src": "fa6solid"
+    }
+  ]
+}
