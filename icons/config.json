@@ -35,6 +35,12 @@
       "css": "certificate",
       "code": 61603,
       "src": "fa6solid"
+    },
+    {
+      "uid": "9d1040439674b9228f6bd43ff79cd17f",
+      "css": "linkedin-in",
+      "code": 61665,
+      "src": "fa6brands"
     }
   ]
 }
